@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Uray_Wahyu!</string>
+    <string name="java_syntax">Java Syntax</string>
+    <string name="user_text">User Name</string>
+    <string name="pwd_text">Password</string>
+    <string name="attempts_text">Attempts:</string>
+    <string name="login_btn">Login</string>
+    <string name="textView_secondPage">Welcome to Second Page</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="subtitle_detail_text">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Praesent ultrices congue rutrum.
+        Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend
+        eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum
+        blandit, dolor diam fringilla tellus, eu euismod mauris neque
+        at neque.</string>
+    <string name="contoh_syntax">Contoh Syntax</string>
+    <string name="link_materi">Link Materi</string>
+    <string name="layout_syntax">Layout Syntax</string>
+    <string name="kembali">Kembali</string>
+
+    <string-array name="sports_titles">
+        <item>EditText</item>
+        <item>SeekBar</item>
+        <item>CheckBox</item>
+        <item>RadioButton</item>
+        <item>Switch</item>
+<!--        <item>Basketball</item>-->
+<!--        <item>Soccer</item>-->
+<!--        <item>Cycling</item>-->
+<!--        <item>Badminton</item>-->
+<!--        <item>Bowling</item>-->
+<!--        <item>Baseball</item>-->
+<!--        <item>Golf</item>-->
+<!--        <item>Running</item>-->
+<!--        <item>Swimming</item>-->
+<!--        <item>Table Tennis</item>-->
+<!--        <item>Tennis</item>-->
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Penjelasan komponen EditText.</item>
+        <item>Penjelasan komponen SeekBar.</item>
+        <item>Penjelasan komponen CheckBox.</item>
+        <item>Penjelasan komponen RadioButton.</item>
+        <item>Penjelasan komponen Switch.</item>
+<!--        <item>Here is some Basketball news!</item>-->
+<!--        <item>Here is some Soccer news!</item>-->
+<!--        <item>Here is some Cycling news!</item>-->
+<!--        <item>Here is some Badminton news!</item>-->
+<!--        <item>Here is some Bowling news!</item>-->
+<!--        <item>Here is some Baseball news!</item>-->
+<!--        <item>Here is some Golf news!</item>-->
+<!--        <item>Here is some Running news!</item>-->
+<!--        <item>Here is some Swimming news!</item>-->
+<!--        <item>Here is some Table Tennis news!</item>-->
+<!--        <item>Here is some Tennis news!</item>-->
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_bowling</item>
+<!--        <item>@drawable/img_baseball</item>-->
+<!--        <item>@drawable/img_golf</item>-->
+<!--        <item>@drawable/img_running</item>-->
+<!--        <item>@drawable/img_swimming</item>-->
+<!--        <item>@drawable/img_tabletennis</item>-->
+<!--        <item>@drawable/img_tennis</item>-->
+    </array>
+
+    <array name="component_details">
+        <item>Komponen EditText berguna untuk memasukkan dan memodifikasi teks.
+            Memilih jenis input akan mengatur jenis keyboard yang ditampilkan,
+            karakter yang dapat diterima, dan tampilan teks edit. Misalnya,
+            jika Anda ingin menerima nomor rahasia, seperti pin unik atau nomor seri,
+            Anda dapat mengatur tipeInput ke "numericPassword". TipeInput "numericPassword"
+            menghasilkan teks edit yang hanya menerima angka, menampilkan keyboard numerik saat
+            fokus, dan menutupi teks yang dimasukkan untuk privasi. Komponen ini tidak mendukung
+            ukuran teks otomatis.</item>
+        <item>Komponen SeekBar adalah ekstensi dari ProgressBar yang menambahkan
+        jempol yang dapat diseret. Pengguna dapat menyentuh jempol dan kemudian diseret ke kiri atau
+        ke kanan untuk mengatur tingkat progress saat ini atau menggunakan tombol panah.</item>
+        <item>Komponen CheckBox adalah kotak pilihan yang dapat dicentang atau
+        tidak dicentang. Komponen ini untuk memilih lebih dari satu pilihan. Pengguna dapat memilih
+        beberapa pilihan. Mencentang satu kotak tidak menghapus centang yang lainnya. Biasa
+        digunakan dengan tombol Kirim. Setiap CheckBox adalah sebuah View dan dapat memiliki
+        penganganan onClick.</item>
+        <item>Komponen RadioButton adalah tombol pilihan yang bisa jadi
+        dicentang atau tidak dicentang. Ketika RadioButton tidak dicentang, pengguna dapat menekan
+        atau mengkliknya untuk mencentangnya. Namun, bertolak belakang dengan CheckBox, RadioButton
+        tidak bisa untuk tidak dicentang oleh pengguna setelah dicentang. RadioButton biasanya
+        digunakan bersama dalam RadioGroup.</item>
+        <item>Komponen Switch adalah widget sakelar dua-keadaan yang digunakan
+        untuk memilih antara dua opsi. Pengguna dapat menyeret "ibu jari" secara bolak balik untuk
+        memilih opsi yang dipilih, atau cukup ketuk untuk beralih seolah-olah itu adalah CheckBox.
+        Pengguna dapat memilih antara on dan off.</item>
+    </array>
+
+    <string-array name="java_details">
+        <item>public EditText (Context context,
+                AttributeSet attrs,
+                int defStyleAttr,
+                int defStyleRes);</item>
+        <item>public SeekBar (Context context,
+                AttributeSet attrs,
+                int defStyleAttr,
+                int defStyleRes);</item>
+        <item>public class MyActivity extends Activity {
+            \tprotected void onCreate(Bundle icicle) {
+            \t\tsuper.onCreate(icicle);
+
+            \t\tsetContentView(R.layout.content_layout_id);
+
+            \t\tfinal CheckBox checkBox = (CheckBox) findViewById(R.id.checkbox_id);
+            \t\tif (checkBox.isChecked()) {
+             \t\t\tcheckBox.setChecked(false);
+            \t\t}
+            \t}
+            };</item>
+        <item>public RadioButton (Context context,
+                AttributeSet attrs,
+                int defStyleAttr,
+                int defStyleRes);</item>
+        <item>public Switch (Context context,
+                AttributeSet attrs,
+                int defStyleAttr,
+                int defStyleRes);</item>
+    </string-array>
+
+    <string-array name="layout_details">
+        <item>&lt;EditText \n
+            android:id="@+id/plain_text_input" \n
+            android:layout_height="wrap_content" \n
+            android:layout_width="match_parent" \n
+            android:inputType="text"/></item>
+        <item>android:thumb</item>
+        <item></item>
+        <item></item>
+        <item>android:showText</item>
+    </string-array>
+
+    <string-array name="url">
+        <item>https://developer.android.com/reference/android/widget/EditText.html</item>
+        <item>https://developer.android.com/reference/android/widget/SeekBar.html</item>
+        <item>https://developer.android.com/reference/android/widget/CheckBox.html</item>
+        <item>https://developer.android.com/reference/android/widget/RadioButton.html</item>
+        <item>https://developer.android.com/reference/android/widget/Switch.html</item>
+    </string-array>
+
+</resources>
